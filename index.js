@@ -11,7 +11,7 @@ mongoose.set("strictQuery", false);
 
 
 // mongoose.connect(mongoDB, {useNewUrlParser: true});
-mongoose.connect(process.env.mongoDB+"todolistDB", function (err) {
+mongoose.connect(process.env.mongoDB, function (err) {
     if (err) {
         console.log(`unable to connect server : ${err}`)
     }
