@@ -25,7 +25,7 @@ const itemSchema = new mongoose.Schema({
 })
 const Item = mongoose.model("Item", itemSchema);
 const item1 = new Item({
-    item: 'welcome to do list'
+    item: 'welcome task list'
 });
 const item2 = new Item({
     item: '+ button to add task'
